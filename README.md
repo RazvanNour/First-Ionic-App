@@ -1,24 +1,11 @@
-Change log
 
-01 Create project
+Movie local Database
 
-- Ionic React quickstart, https://ionicframework.com/docs/react/quickstart
-- React components (App, Home), https://reactjs.org/docs/components-and-props.html
-- Ionic React navigation, https://ionicframework.com/docs/react/navigation
-- Ionic pages, https://ionicframework.com/docs/layout/structure
-
-02 Define a functional modular structure
-
-- Remove pages & components root modules
-- Add functional modules (e.g. 'todo')
-- Add pages and components into modules
-- Define a new functional component with props, https://reactjs.org/docs/components-and-props.html
-
-03 Define component state
-
-- React state & lifecycle, https://reactjs.org/docs/state-and-lifecycle.html
-- React state hook, https://reactjs.org/docs/hooks-state.html
-
-04 Extract the state from presentational components
-
-- React custom hooks, https://reactjs.org/docs/hooks-custom.html
+The application will search for the closest cinema, and provide the user with info about the movies that are running through the current time. 
+In the first activity/fragment, it will have a list of all cinemas close to the user, displayed using recycle view for each item.
+Here there will be the feature for adding/removing an item (Crud operations).
+Once clicking on an item, you will be redirected to an activity/fragment where it will be the details about the cinema, together with a slide show of all the movies running for that week.
+On this page I can also integrate the google maps feature to show the usere where is the cinema located.
+Maybe there will be a feature to buy tickets for a designated movie (here i can use an email feature to confirm purchase) and also there will be a section for editing all the credentials for your account plus user picture, so I can use local storage permission or camera permission to take photos.
+Another local service would be ofcourse the location for the Google Maps integration.
+The animations will be used maybe for the crossover navigation through the pages, or to the crud operation (i will decide later).
